@@ -1,21 +1,26 @@
 # Todo App
 
-A simple and efficient Todo application built with modern web technologies.
+A simple and efficient Todo application built with React and Vite. This application allows users to manage their daily tasks with features like adding, completing, and deleting tasks, as well as filtering tasks by their status.
 
 ## Features
 
-- Add new tasks
-- Mark tasks as complete
-- Delete tasks
-- Filter tasks by status (all, active, completed)
-- Responsive design for all devices
+- Add new tasks with descriptive names
+- Mark tasks as complete/incomplete
+- Delete tasks you no longer need
+- Filter tasks by status:
+  - All: View all tasks
+  - Open: View only incomplete tasks
+  - Completed: View only completed tasks
+- Responsive design that works on desktop, tablet, and mobile devices
+- Local storage persistence so your tasks are saved between sessions
+- Clean and intuitive user interface
 
 ## Technologies Used
 
-- React
-- Vite
-- JavaScript (ES6+)
-- CSS3
+- React (Functional Components with Hooks)
+- Vite (Fast build tool and development server)
+- JavaScript (ES6+ features)
+- CSS3 (Custom styling with responsive design)
 
 ## Getting Started
 
@@ -76,6 +81,17 @@ todo-app/
 ├── package.json
 └── vite.config.js
 ```
+
+## How It Works
+
+1. **Task Management**: Users can add new tasks using the input field at the bottom of the app.
+2. **Task Completion**: Each task can be marked as complete using the "Done" button.
+3. **Task Deletion**: Tasks can be removed entirely using the "Delete" button.
+4. **Filtering**: The tab navigation allows users to view:
+   - All tasks
+   - Open tasks (incomplete)
+   - Completed tasks
+5. **Persistence**: All tasks are saved to the browser's local storage, so they persist between sessions.
 
 ## Contributing
 
